@@ -1,0 +1,11 @@
+.brand {
+	border-bottom: 2px solid #333333;
+  font-size: 35px;
+  text-transform: uppercase;
+  background-color: darkorange;
+}
+
+.brand a {
+	text-decoration: none;
+	color: #333333;
+}
