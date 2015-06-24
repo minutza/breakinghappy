@@ -25,8 +25,40 @@ body {
 
 .texte {
 	text-align: justify;
-	margin-left: auto;
-    margin-right: auto;
+	position: relative;
+	margin-left: 20px;
     width: 35em
 }
 
+div img {
+	position: relative;
+}
+
+.atom {
+	margin-left: 248px;
+	margin-right: 248px;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	font-size: 16px;
+	font-variant: normal;
+	font-style: normal;
+	font-family: helvetica;
+	width: 860px;
+}
+
+.img {
+  position: relative;
+  margin-left: 135px;
+}
+
+.brackets {
+	margin-left: 248px;
+  	margin-right: 248px;
+  	margin-top: 0px;
+  	margin-bottom: 75px;
+  	font-size: 16px;
+  	font-variant: normal;
+  	font-style: normal;
+  	font-family: helvetica;
+  	width: 860px;
+} 
