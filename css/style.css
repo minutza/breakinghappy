@@ -14,52 +14,8 @@ body {
   height: 100%;
   min-width: 1060px;
   margin: 0;
+  margin-bottom: 100px;
   color: #66595c;
   font: 16px/1.7 normal normal;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
 }
-
-.titel {
-	text-align: center;
-}
-
-.texte {
-	text-align: justify;
-	position: relative;
-	margin-left: 20px;
-    width: 35em
-
-
-div img {
-	position: relative;
-}
-
-.atom {
-	margin-left: 248px;
-	margin-right: 248px;
-	margin-top: 75px;
-	margin-bottom: 75px;
-	font-size: 16px;
-	font-variant: normal;
-	font-style: normal;
-	font-family: helvetica;
-	width: 860px;
-}
-
-.img {
-  position: relative;
-  margin-left: 135px;
-}
-
-.brackets {
-	margin-left: 248px;
-  	margin-right: 248px;
-  	margin-top: 0px;
-  	margin-bottom: 75px;
-  	font-size: 16px;
-  	font-variant: normal;
-  	font-style: normal;
-  	font-family: helvetica;
-  	width: 860px;
-}
-
