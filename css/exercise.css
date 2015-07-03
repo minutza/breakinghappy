@@ -1,0 +1,12 @@
+.container {
+position: relative;
+}
+
+.image {
+float: right;
+margin: -360px 0 1em 1em;
+}
+
+.text {
+margin-right: 450px;
+}
