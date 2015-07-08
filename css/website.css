@@ -1,0 +1,26 @@
+.navbar {
+  border-bottom: 2px solid #333333;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: black;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a:link, a:visited {
+  display: block;
+  width: 230px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+a:hover, a:active {
+  background-color: green;
+  color: yellow;
+}
