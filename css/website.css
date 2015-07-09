@@ -1,26 +1,44 @@
 .navbar {
-  border-bottom: 2px solid #333333;
   font-size: 20px;
   text-transform: uppercase;
   background-color: black;
   text-align: center;
+  padding: 20px 40px 20px 40px;
 }
+
+.logo a {
+  float: left;
+  text-decoration: none;
+  color: white;
+}
+
+.logo a:active,
+.logo a:hover {
+  background-color: black;
+  color: darkorange;
+}
+
 li {
   display: inline-block;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-a:link, a:visited {
+
+.navlist a:link,
+.navlist a:visited {
   display: block;
-  width: 230px;
+  width: 200px;
   text-decoration: none;
   color: white;
   padding: 5px;
 }
-a:hover, a:active {
+
+.navlist a:hover, 
+.navlist a:active {
   background-color: green;
   color: yellow;
 }
