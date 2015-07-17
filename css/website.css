@@ -1,20 +1,26 @@
+@media screen and (min-width: 1080px) {
+
 .navbar {
   font-size: 20px;
   text-transform: uppercase;
-  background-color: black;
+  background: 0;
   text-align: center;
-  padding: 20px 40px 20px 40px;
+  padding: 1em;
+  min-width: 700px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .logo a {
   float: left;
   text-decoration: none;
-  color: white;
+  color: #c5c5c5;;
+  padding: 5px;
+  text-align: center;
 }
 
 .logo a:active,
 .logo a:hover {
-  background-color: black;
   color: darkorange;
 }
 
@@ -33,12 +39,29 @@ ul {
   display: block;
   width: 200px;
   text-decoration: none;
-  color: white;
+  color: #c5c5c5;;
   padding: 5px;
 }
 
 .navlist a:hover, 
 .navlist a:active {
-  background-color: green;
   color: yellow;
+}
+
+/*container*/
+
+.container {
+position: relative;
+}
+
+.image {
+float: right;
+margin: -360px 0 1em 1em;
+}
+
+.text {
+margin-right: 450px;
+padding-top: 150px;
+}
+
 }
