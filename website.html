@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8" /> 
 		<title>Website</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
 	  <link rel="stylesheet" type="text/css" href="css/website.css">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +12,7 @@
 
 	<body>
 
-		<header class="navbar">
+		<header class="m-navbar">
 
 			<div class="logo">
 				<a href="index.html">Breaking Happy</a>
@@ -24,8 +26,11 @@
 	  			<li><a href="#about">About</a></li>
 				</ul>
 			</div>
+			<span id="open-m-navbar" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+			<span id="close-m-navbar" class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 		</header>
 
-
+		<script src="js/jquery.min.js"></script>
+		<script src="js/navbar.js"></script>
 	</body>	
 </html>

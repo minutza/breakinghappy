@@ -6,6 +6,7 @@ header {
   font-size: 12px;
   background-color: transparent;
   position: absolute;
+  width: 100%;
 }
 
 body,
@@ -18,8 +19,52 @@ body {
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;
-
+  min-width: inherit;
 }
+
+.m-navbar .navlist {
+  display: none;
+}
+
+.m-navbar.open .navlist {
+  display: inline-block;
+}
+
+.logo a {
+  color: rgba(0,0,0,0.4);
+  font-size: 26px;
+  padding-left: 15px;
+}
+
+.glyphicon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  font-size: 24px;
+  color: rgba(0,0,0,0.4);
+}
+
+.navlist ul {
+  list-style-type: none;
+}
+
+.navlist a {
+  text-decoration: none;
+}
+
+.m-navbar.open #open-m-navbar {
+  display: none;
+}
+
+.m-navbar #close-m-navbar {
+  display: none;
+}
+
+.m-navbar.open #close-m-navbar {
+  display: block;
+}
+
 
 /* Tablet ... */
 @media (min-width: 768px) {
