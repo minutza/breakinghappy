@@ -28,12 +28,19 @@ body {
 
 .m-navbar.open .navlist {
   display: inline-block;
+  text-align: center;
+
+}
+
+.m-navbar.open a {
+  color: rgba(0,0,0,0.4);
 }
 
 .logo a {
   color: rgba(0,0,0,0.4);
   font-size: 26px;
   padding-left: 15px;
+  text-decoration: none;
 }
 
 .glyphicon {
@@ -47,6 +54,14 @@ body {
 
 .navlist ul {
   list-style-type: none;
+  font-size: 20px;
+  width: 620px;
+  height: 100px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-left: -334px;
+  margin-top: -50px;
 }
 
 .navlist a {
@@ -70,24 +85,23 @@ body {
 @media (min-width: 768px) {
   header {
     font-size: 15px;
-    background-color: orange;
-  }
+    color: rgba(0,0,0,0.4)  }
 }
+
+
 
 /* medium Desktop ... */
 @media (min-width: 992px) {
   header {
     font-size: 20px;
-    background-color: red;
-  }
+    color: rgba(0,0,0,0.4)  }
 }
 
 /* medium Desktop ... */
 @media (min-width: 1200px) {
   header {
     font-size: 30px;
-    background-color: darkgreen;
-  }
+    color: rgba(0,0,0,0.4)  }
 }
 
 /*
